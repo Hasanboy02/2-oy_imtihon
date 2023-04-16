@@ -1,0 +1,36 @@
+.footer__card {
+  background: #333a44;
+}
+.footer__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 35px 0;
+}
+
+.footer__list {
+  display: flex;
+  margin-right: 490px;
+  gap: 32px;
+}
+
+.footer__list__item{
+list-style: none;    
+}
+
+.footer__link {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  text-decoration: none;
+  line-height: 25px;
+  color: $color;
+}
+
+.footer__img{
+    img{
+    padding-left: 10px;     
+    }
+}
+   
+

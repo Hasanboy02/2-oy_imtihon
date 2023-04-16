@@ -1,0 +1,140 @@
+// Mobilne Home_page
+@media (max-width: 767px) {
+  .header__wrapper {
+    .btn__link {
+      display: none;
+    }
+  }
+  .header__list {
+    display: none;
+  }
+  .logo {
+    text-align: center;
+    margin-left: calc(50vw - 50px);
+  }
+
+  .simple__card {
+    max-width: 375px;
+    background-image: url(/image/mobilne_hero.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .simple__text {
+    h3 {
+      max-width: 311px;
+      margin-left: 30px;
+      text-align: center;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 40px;
+      text-align: center;
+      letter-spacing: -1.78571px;
+      color: #ffffff;
+    }
+    p {
+      max-width: 311px;
+      margin-left: 30px;
+      font-family: "Lexend Deca";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+      color: #ffffff;
+    }
+    .btn__link {
+      margin-top: 32px;
+    }
+    img {
+      display: none;
+    }
+  }
+  .simple__card {
+    // background-image: url(/image/simplebaground.svg);
+    // background-size: contain;
+    // background-repeat: no-repeat;
+    // background-position: right 100px top 490px;
+    // background-size: 446px;
+    // z-index: 1px;
+
+    position: relative;
+  }
+
+  .simple__text {
+    background-image: url(/image/simplebaground.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right 232px top 497px;
+    background-size: 446px;
+    z-index: 1px;
+    padding-bottom: 130px;
+  }
+
+  .order__hr {
+    display: none;
+  }
+
+  .order__box {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .order__card {
+    img {
+      margin-left: 100px;
+    }
+    h4 {
+      // margin-left: 40px;
+      max-width: 311px;
+      text-align: center;
+    }
+    p {
+      max-width: 311px;
+      text-align: center;
+    }
+  }
+  .easy__box {
+    margin-top: 0px;
+    padding-top: 400px;
+    h2 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 32px;
+      max-width: 311px;
+      text-align: center;
+      letter-spacing: -1.42857px;
+       margin-left: 51px;
+      color: #495567;
+    }
+    p {
+      font-family: "Lexend Deca";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 25px;
+      max-width: 311px;
+      text-align: center;
+      color: #939caa;
+      margin-left: 48px;
+      padding-bottom: 60px;
+    }
+    a{
+      margin-left: 60px;
+    }
+
+  }
+  .easy__img{
+  
+    background-image: url(/image/mobilesay.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom 350px center;
+  
+  }
+}
+
+//Tablet Home_page
+@media (min-width: 768px) and (max-width: 1024px) {
+
+}

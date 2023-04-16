@@ -1,0 +1,31 @@
+
+.text__item {
+  max-width: 445px;
+  margin-top: 200px;
+  margin-left: 660px;
+  h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: #495567;
+  }
+  p {
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: $color;
+    margin-top: 24px;
+    margin-bottom: 40px;
+  }
+}
+.sity__text{
+    background-image: url(/image/sity.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left -250px center; 
+    
+}

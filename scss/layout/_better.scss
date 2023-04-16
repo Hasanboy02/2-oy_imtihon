@@ -1,0 +1,30 @@
+.better__box {
+  display: flex;
+  margin-top: 120px;
+}
+.better__img {
+  img {
+    margin-left: -146px;
+  }
+}
+.better__text {
+  max-width: 445px;
+  margin-left: 281px;
+  h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: #495567;
+  }
+  p {
+    padding-top: 32px;
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color:$color;
+  }
+}

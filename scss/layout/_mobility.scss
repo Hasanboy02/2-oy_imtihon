@@ -1,0 +1,40 @@
+// .mobility {
+//   max-width: 1400px;
+//   height: 350px;
+//   margin: 0 auto;
+//   background-image: url(/image/mobility.svg);
+//   background-repeat: no-repeat;
+//   background-size: contain;
+//   background-position: center right -5px;
+// }
+
+.mobility__box{
+    display: flex;
+    margin-top: 50px;
+    img{
+        margin-top: 30px;
+        margin-right: -78px;
+    }
+}
+.mobility__text {
+  max-width: 445px;
+  margin-top: 100px;
+  h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: #495567;
+  }
+  p {
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    padding-top: 40px;
+    color: #939caa;
+    max-width: 372px;
+  }
+}

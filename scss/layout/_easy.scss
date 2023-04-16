@@ -1,0 +1,33 @@
+.easy__box {
+  max-width: 445px;
+  margin-top: 200px;
+  h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: #495567;
+  }
+  p {
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: $color;
+    margin-top: 24px;
+    margin-bottom: 40px;
+  }
+}
+
+.easy_link{
+    max-width: 200px;
+    height: 53px;
+}
+.easy__img{
+    background-image: url(/image/easy.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right -200px center;
+}
